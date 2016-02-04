@@ -15,7 +15,7 @@ public class testfile1 implements java.io.Serializable
    private java.lang.Character field4;
    private java.util.Date field5;
 
-   private java.math.BigDecimal fld11;
+   private java.math.BigDecimal fld12;
 
    public testfile1()
    {
@@ -71,26 +71,26 @@ public class testfile1 implements java.io.Serializable
       this.field5 = field5;
    }
 
-   public java.math.BigDecimal getFld11()
+   public java.math.BigDecimal getFld12()
    {
-      return this.fld11;
+      return this.fld12;
    }
 
-   public void setFld11(java.math.BigDecimal fld11)
+   public void setFld12(java.math.BigDecimal fld12)
    {
-      this.fld11 = fld11;
+      this.fld12 = fld12;
    }
 
    public testfile1(java.math.BigDecimal field1, java.math.BigInteger field2,
          java.lang.Boolean field3, java.lang.Character field4,
-         java.util.Date field5, java.math.BigDecimal fld11)
+         java.util.Date field5, java.math.BigDecimal fld12)
    {
       this.field1 = field1;
       this.field2 = field2;
       this.field3 = field3;
       this.field4 = field4;
       this.field5 = field5;
-      this.fld11 = fld11;
+      this.fld12 = fld12;
    }
 
 }
