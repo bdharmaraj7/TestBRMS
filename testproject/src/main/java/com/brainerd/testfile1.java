@@ -13,7 +13,6 @@ public class testfile1 implements java.io.Serializable
    private java.math.BigInteger field2;
    private java.lang.Boolean field3;
    private java.lang.Character field4;
-   private java.util.Date field5;
 
    public testfile1()
    {
@@ -59,25 +58,13 @@ public class testfile1 implements java.io.Serializable
       this.field4 = field4;
    }
 
-   public java.util.Date getField5()
-   {
-      return this.field5;
-   }
-
-   public void setField5(java.util.Date field5)
-   {
-      this.field5 = field5;
-   }
-
    public testfile1(java.math.BigDecimal field1, java.math.BigInteger field2,
-         java.lang.Boolean field3, java.lang.Character field4,
-         java.util.Date field5)
+         java.lang.Boolean field3, java.lang.Character field4)
    {
       this.field1 = field1;
       this.field2 = field2;
       this.field3 = field3;
       this.field4 = field4;
-      this.field5 = field5;
    }
 
 }
