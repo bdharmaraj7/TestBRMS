@@ -15,8 +15,6 @@ public class testfile1 implements java.io.Serializable
    private java.lang.Character field4;
    private java.util.Date field5;
 
-   private java.lang.Character field20;
-
    public testfile1()
    {
    }
@@ -71,26 +69,15 @@ public class testfile1 implements java.io.Serializable
       this.field5 = field5;
    }
 
-   public java.lang.Character getField20()
-   {
-      return this.field20;
-   }
-
-   public void setField20(java.lang.Character field20)
-   {
-      this.field20 = field20;
-   }
-
    public testfile1(java.math.BigDecimal field1, java.math.BigInteger field2,
          java.lang.Boolean field3, java.lang.Character field4,
-         java.util.Date field5, java.lang.Character field20)
+         java.util.Date field5)
    {
       this.field1 = field1;
       this.field2 = field2;
       this.field3 = field3;
       this.field4 = field4;
       this.field5 = field5;
-      this.field20 = field20;
    }
 
 }
